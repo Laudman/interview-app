@@ -1,0 +1,12 @@
+type: object
+properties:
+  disclaimer:
+    type: string
+  terms:
+    type: string
+  license:
+    type: string
+  last_updated:
+    type: string
+  results:
+    $ref: './ResultDTO.yaml'

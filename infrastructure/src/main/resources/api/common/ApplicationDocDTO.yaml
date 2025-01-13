@@ -1,0 +1,17 @@
+type: object
+properties:
+  id:
+    description: "The id of the applications document."
+    type: string
+  date:
+    description: "The date of publication of the applications document."
+    type: string
+  title:
+    description: "The title of the applications document."
+    type: string
+  type:
+    description: "The type of the applications document."
+    type: string
+  url:
+    description: "The url to access the applications document."
+    type: string

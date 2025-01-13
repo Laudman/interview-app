@@ -1,0 +1,35 @@
+type: object
+properties:
+  submission_class_code:
+    description: "The Submission Classification Code, previously known as the Chemistry Classification Code, is assigned as a “Type” code."
+    type: string
+  submission_class_code_description:
+    description: "The Submission Classification Code, previously known as the Chemistry Classification Code, is assigned as a “Type” code. This is a full description of the classification code."
+    type: string
+  submission_number:
+    description: "A unique identifier for each submission under that application."
+    type: string
+  submission_public_notes:
+    description: "Publicly available notes regarding the submission."
+    type: string
+  submission_status:
+    description: "The current status of this submission."
+    type: string
+  submission_status_date:
+    description: "The date the status was applied to the submission."
+    type: string
+  submission_type:
+    description: "The type of the individual submission. Used in combination with submission_number."
+    type: string
+  review_priority:
+    description: "Pending."
+    type: string
+  application_docs:
+    description: "A list of documents associated with the submission."
+    type: array
+    items:
+      $ref: './ApplicationDocDTO.yaml'
+  submission_property_type:
+    type: array
+    items:
+      $ref: './CodeDTO.yaml'

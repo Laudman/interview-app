@@ -1,0 +1,8 @@
+type: object
+properties:
+  meta:
+    $ref: './MetaDTO.yaml'
+  results:
+    type: array
+    items:
+      $ref: './DrugResultDTO.yaml'

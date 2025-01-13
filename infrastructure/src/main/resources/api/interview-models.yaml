@@ -1,0 +1,44 @@
+openapi: 3.0.3
+info:
+  title: Interview App
+  description: Service models for FDA drug records
+  version: 1.0.0
+servers:
+  - url: '/v1'
+paths:
+  /placeholder:
+    get:
+      summary: Placeholder endpoint - no actual implementation
+      responses:
+        '204':
+          description: No Content
+components:
+  schemas:
+    DrugRecordDTO:
+      type: object
+      required:
+        - applicationNumber
+        - manufacturerName
+        - substanceName
+      properties:
+        applicationNumber:
+          type: string
+        manufacturerName:
+          type: string
+        substanceName:
+          type: string
+        productNumbers:
+          type: array
+          items:
+            type: string
+
+    FdaDrugFilterDTO:
+      type: object
+      properties:
+        manufacturerName:
+          type: string
+        brandName:
+          type: string
+        limit:
+          type: integer
+          format: int32

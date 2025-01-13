@@ -1,0 +1,8 @@
+type: object
+properties:
+  skip:
+    type: integer
+  limit:
+    type: integer
+  total:
+    type: integer

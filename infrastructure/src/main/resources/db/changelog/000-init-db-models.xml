@@ -1,0 +1,20 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <changeSet id="create_drug_record_table" author="mzaba">
+        <createTable tableName="drug_record">
+            <column name="application_number" type="varchar(255)">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="manufacturer_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="substance_name" type="varchar(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="product_numbers" type="varchar(255)"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

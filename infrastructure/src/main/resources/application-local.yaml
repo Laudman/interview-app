@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/int-app-db-test
+    username: int-app-db-test
+    password: int-app-db-test
+  jpa:
+    show-sql: true
+logging:
+  level:
+    root: info

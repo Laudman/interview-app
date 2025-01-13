@@ -1,0 +1,38 @@
+openapi: 3.0.3
+info:
+  title: OpenFDA Drug Application API
+  description: API for accessing drug application records from the FDA.
+  version: 1.0.0
+paths:
+  /drug/drugsfda.json:
+    get:
+      summary: Search Drug Applications
+      description: Retrieves drug record applications submitted to the FDA.
+      operationId: getDrugApplications
+      parameters:
+        - name: api_key
+          in: query
+          required: true
+          description: API key for authentication.
+          schema:
+            type: string
+        - name: search
+          in: query
+          required: true
+          description: Search by manufacturer name.
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: true
+          description: Limits the number of records returned. Defaults to 10.
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: Successful response with drug records.
+          content:
+            application/json:
+              schema:
+                $ref: './common/FdaDrugResponseDTO.yaml'

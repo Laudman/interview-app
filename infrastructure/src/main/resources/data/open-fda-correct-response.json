@@ -1,0 +1,1080 @@
+{
+  "meta": {
+    "disclaimer": "Do not rely on openFDA to make decisions regarding medical care. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated. We may limit or otherwise restrict your access to the API in line with our Terms of Service.",
+    "terms": "https://open.fda.gov/terms/",
+    "license": "https://open.fda.gov/license/",
+    "last_updated": "2025-01-10",
+    "results": {
+      "skip": 0,
+      "limit": 10,
+      "total": 236
+    }
+  },
+  "results": [
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20160817",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20150528",
+          "submission_class_code": "UNKNOWN",
+          "application_docs": [
+            {
+              "id": "32562",
+              "url": "http://www.accessdata.fda.gov/drugsatfda_docs/appletter/2015/204446Orig1s000ltr.pdf",
+              "date": "20150602",
+              "type": "Letter"
+            }
+          ]
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "2",
+          "submission_status": "AP",
+          "submission_status_date": "20160817",
+          "review_priority": "UNKNOWN",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        }
+      ],
+      "application_number": "ANDA204446",
+      "sponsor_name": "COSETTE",
+      "openfda": {
+        "application_number": [
+          "ANDA204446"
+        ],
+        "brand_name": [
+          "DOXYCYCLINE"
+        ],
+        "generic_name": [
+          "DOXYCYCLINE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals,Inc."
+        ],
+        "product_ndc": [
+          "43386-790",
+          "43386-791",
+          "43386-792"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "DOXYCYCLINE"
+        ],
+        "rxcui": [
+          "700408",
+          "1649401",
+          "1649990"
+        ],
+        "spl_id": [
+          "a3ed2ee4-163c-4167-abf2-59a7e1d66a61"
+        ],
+        "spl_set_id": [
+          "6512bf22-c211-4127-a8c8-2419656580f6"
+        ],
+        "package_ndc": [
+          "43386-790-01",
+          "43386-790-11",
+          "43386-790-10",
+          "43386-791-01",
+          "43386-791-11",
+          "43386-791-10",
+          "43386-792-02",
+          "43386-792-11",
+          "43386-792-10"
+        ],
+        "nui": [
+          "N0000175882",
+          "N0000007948"
+        ],
+        "pharm_class_epc": [
+          "Tetracycline-class Drug [EPC]"
+        ],
+        "pharm_class_cs": [
+          "Tetracyclines [Chemical/Ingredient]"
+        ],
+        "unii": [
+          "N12000U13O"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "003",
+          "reference_drug": "No",
+          "brand_name": "DOXYCYCLINE",
+          "active_ingredients": [
+            {
+              "name": "DOXYCYCLINE",
+              "strength": "EQ 100MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Discontinued",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "DOXYCYCLINE",
+          "active_ingredients": [
+            {
+              "name": "DOXYCYCLINE",
+              "strength": "EQ 50MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Discontinued",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "DOXYCYCLINE",
+          "active_ingredients": [
+            {
+              "name": "DOXYCYCLINE",
+              "strength": "EQ 75MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Discontinued",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20170721",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA206003",
+      "sponsor_name": "NOVEL LABS INC",
+      "openfda": {
+        "application_number": [
+          "ANDA206003"
+        ],
+        "brand_name": [
+          "FLUOCINONIDE"
+        ],
+        "generic_name": [
+          "FLUOCINONIDE"
+        ],
+        "manufacturer_name": [
+          "Novel Laboratories, Inc.",
+          "Lupin Pharmaceuticals,Inc."
+        ],
+        "product_ndc": [
+          "40032-026",
+          "43386-026"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "TOPICAL"
+        ],
+        "substance_name": [
+          "FLUOCINONIDE"
+        ],
+        "rxcui": [
+          "310364"
+        ],
+        "spl_id": [
+          "09d4aa56-fa9a-4697-aeab-87ba2f0cca92",
+          "465101b9-6374-4ce8-b64d-97e296f5c72a"
+        ],
+        "spl_set_id": [
+          "f820f497-9ad9-482d-ac92-46a7afa58968",
+          "43b7621c-6628-4b54-af32-32efd0f722da"
+        ],
+        "package_ndc": [
+          "40032-026-06",
+          "43386-026-06",
+          "43386-026-02"
+        ],
+        "nui": [
+          "N0000175576",
+          "N0000175450"
+        ],
+        "pharm_class_epc": [
+          "Corticosteroid [EPC]"
+        ],
+        "pharm_class_moa": [
+          "Corticosteroid Hormone Receptor Agonists [MoA]"
+        ],
+        "unii": [
+          "2W4A77YPAN"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "FLUOCINONIDE",
+          "active_ingredients": [
+            {
+              "name": "FLUOCINONIDE",
+              "strength": "0.05%"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "SOLUTION",
+          "route": "TOPICAL",
+          "marketing_status": "Prescription",
+          "te_code": "AT"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20090617"
+        }
+      ],
+      "application_number": "ANDA078939",
+      "sponsor_name": "LUPIN",
+      "openfda": {
+        "application_number": [
+          "ANDA078939"
+        ],
+        "brand_name": [
+          "ETHAMBUTOL HYDROCHLORIDE"
+        ],
+        "generic_name": [
+          "ETHAMBUTOL HYDROCHLORIDE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "68180-280",
+          "68180-281"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "ETHAMBUTOL HYDROCHLORIDE"
+        ],
+        "rxcui": [
+          "995599",
+          "995607"
+        ],
+        "spl_id": [
+          "0018f727-fdb1-4865-9271-cf5ea380e803"
+        ],
+        "spl_set_id": [
+          "c732b415-e1f9-478f-896d-1dc8b6362da4"
+        ],
+        "package_ndc": [
+          "68180-280-01",
+          "68180-281-01",
+          "68180-281-02",
+          "68180-281-11"
+        ],
+        "unii": [
+          "QE4VW5FO07"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "ETHAMBUTOL HYDROCHLORIDE",
+          "active_ingredients": [
+            {
+              "name": "ETHAMBUTOL HYDROCHLORIDE",
+              "strength": "400MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "ETHAMBUTOL HYDROCHLORIDE",
+          "active_ingredients": [
+            {
+              "name": "ETHAMBUTOL HYDROCHLORIDE",
+              "strength": "100MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20220207",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA213068",
+      "sponsor_name": "LUPIN",
+      "openfda": {
+        "application_number": [
+          "ANDA213068"
+        ],
+        "brand_name": [
+          "ARFORMOTEROL TARTRATE"
+        ],
+        "generic_name": [
+          "ARFORMOTEROL TARTRATE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "70748-175"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "RESPIRATORY (INHALATION)"
+        ],
+        "substance_name": [
+          "ARFORMOTEROL TARTRATE"
+        ],
+        "rxcui": [
+          "668956"
+        ],
+        "spl_id": [
+          "72398273-f1d5-451c-bd47-8ae85523f678"
+        ],
+        "spl_set_id": [
+          "cf1f2d1b-0455-4113-9647-507faf49fdd0"
+        ],
+        "package_ndc": [
+          "70748-175-60",
+          "70748-175-30"
+        ],
+        "unii": [
+          "5P8VJ2I235"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "ARFORMOTEROL TARTRATE",
+          "active_ingredients": [
+            {
+              "name": "ARFORMOTEROL TARTRATE",
+              "strength": "EQ 0.015MG BASE/2ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "SOLUTION",
+          "route": "INHALATION",
+          "marketing_status": "Prescription",
+          "te_code": "AN"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20240314",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA217794",
+      "sponsor_name": "LUPIN LTD",
+      "openfda": {
+        "application_number": [
+          "ANDA217794"
+        ],
+        "brand_name": [
+          "DOXYCYCLINE"
+        ],
+        "generic_name": [
+          "DOXYCYCLINE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "70748-338"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "DOXYCYCLINE HYCLATE"
+        ],
+        "rxcui": [
+          "310027"
+        ],
+        "spl_id": [
+          "2c4b8f39-667b-458d-9d91-14be3ca4bbb5"
+        ],
+        "spl_set_id": [
+          "2946fc05-78e5-4669-85d1-3a3979eceae0"
+        ],
+        "package_ndc": [
+          "70748-338-10"
+        ],
+        "unii": [
+          "19XTS3T51U"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "DOXYCYCLINE HYCLATE",
+          "active_ingredients": [
+            {
+              "name": "DOXYCYCLINE HYCLATE",
+              "strength": "EQ 100MG BASE/VIAL"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "INJECTABLE",
+          "route": "INJECTION",
+          "marketing_status": "Prescription",
+          "te_code": "AP"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "6",
+          "submission_status": "AP",
+          "submission_status_date": "20231019",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "4",
+          "submission_status": "AP",
+          "submission_status_date": "20200812",
+          "review_priority": "STANDARD",
+          "submission_class_code": "MANUF (CMC)",
+          "submission_class_code_description": "Manufacturing (CMC)"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "9",
+          "submission_status": "AP",
+          "submission_status_date": "20231019",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20180613",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA205947",
+      "sponsor_name": "LUPIN LTD",
+      "openfda": {
+        "application_number": [
+          "ANDA205947"
+        ],
+        "brand_name": [
+          "DROSPIRENONE, ETHINYL ESTRADIOL AND LEVOMEFOLATE CALCIUM AND LEVOMEFOLATE CALCIUM"
+        ],
+        "generic_name": [
+          "DROSPIRENONE, ETHINYL ESTRADIOL AND LEVOMEFOLATE CALCIUM AND LEVOMEFOLATE CALCIUM"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "68180-894"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "rxcui": [
+          "1013626",
+          "1013628",
+          "1013629"
+        ],
+        "spl_id": [
+          "83a7fc49-fda4-4201-9112-33ee26048e3e"
+        ],
+        "spl_set_id": [
+          "48f4301c-0426-43cd-af37-c4d8fc7aeb67"
+        ],
+        "package_ndc": [
+          "68180-894-73"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "DROSPIRENONE, ETHINYL ESTRADIOL AND LEVOMEFOLATE CALCIUM",
+          "active_ingredients": [
+            {
+              "name": "DROSPIRENONE",
+              "strength": "3MG,N/A"
+            },
+            {
+              "name": "ETHINYL ESTRADIOL",
+              "strength": "0.02MG,N/A"
+            },
+            {
+              "name": "LEVOMEFOLATE CALCIUM",
+              "strength": "0.451MG,0.451MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20240917",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA217153",
+      "sponsor_name": "LUPIN LTD",
+      "openfda": {
+        "application_number": [
+          "ANDA217153"
+        ],
+        "brand_name": [
+          "BUMETANIDE"
+        ],
+        "generic_name": [
+          "BUMETANIDE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc."
+        ],
+        "product_ndc": [
+          "70748-323"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "INTRAMUSCULAR",
+          "INTRAVENOUS"
+        ],
+        "substance_name": [
+          "BUMETANIDE"
+        ],
+        "rxcui": [
+          "282486",
+          "1727569"
+        ],
+        "spl_id": [
+          "d36fe175-34a6-4627-8778-da5f98c12391"
+        ],
+        "spl_set_id": [
+          "2c71a17e-ed76-4545-b23e-9f4997b13c2f"
+        ],
+        "package_ndc": [
+          "70748-323-10",
+          "70748-323-11"
+        ],
+        "nui": [
+          "N0000175366",
+          "N0000175590"
+        ],
+        "pharm_class_pe": [
+          "Increased Diuresis at Loop of Henle [PE]"
+        ],
+        "pharm_class_epc": [
+          "Loop Diuretic [EPC]"
+        ],
+        "unii": [
+          "0Y2S3XUQ5H"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "BUMETANIDE",
+          "active_ingredients": [
+            {
+              "name": "BUMETANIDE",
+              "strength": "0.25MG/ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "INJECTABLE",
+          "route": "INJECTION",
+          "marketing_status": "Prescription",
+          "te_code": "AP"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20180709",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA203233",
+      "sponsor_name": "NOVEL LABS INC",
+      "openfda": {
+        "application_number": [
+          "ANDA203233"
+        ],
+        "brand_name": [
+          "NITROFURANTOIN MACROCRYSTALS"
+        ],
+        "generic_name": [
+          "NITROFURANTOIN MACROCRYSTALS"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals,Inc."
+        ],
+        "product_ndc": [
+          "43386-641",
+          "43386-642"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "NITROFURANTOIN"
+        ],
+        "rxcui": [
+          "311995",
+          "1648759"
+        ],
+        "spl_id": [
+          "2e7ec48f-d605-4e97-8620-299e5f143026"
+        ],
+        "spl_set_id": [
+          "52168b36-4e95-4d5b-82be-bbb91c7dcb90"
+        ],
+        "package_ndc": [
+          "43386-641-01",
+          "43386-641-10",
+          "43386-642-01",
+          "43386-642-10"
+        ],
+        "nui": [
+          "N0000175494",
+          "M0014892"
+        ],
+        "pharm_class_epc": [
+          "Nitrofuran Antibacterial [EPC]"
+        ],
+        "pharm_class_cs": [
+          "Nitrofurans [CS]"
+        ],
+        "unii": [
+          "927AH8112L"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "NITROFURANTOIN",
+          "active_ingredients": [
+            {
+              "name": "NITROFURANTOIN, MACROCRYSTALLINE",
+              "strength": "50MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "NITROFURANTOIN",
+          "active_ingredients": [
+            {
+              "name": "NITROFURANTOIN, MACROCRYSTALLINE",
+              "strength": "100MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20160121",
+          "review_priority": "STANDARD",
+          "submission_class_code": "UNKNOWN"
+        }
+      ],
+      "application_number": "ANDA206347",
+      "sponsor_name": "NOVEL LABS INC",
+      "openfda": {
+        "application_number": [
+          "ANDA206347"
+        ],
+        "brand_name": [
+          "POTASSIUM CHLORIDE"
+        ],
+        "generic_name": [
+          "POTASSIUM CHLORIDE"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals,Inc."
+        ],
+        "product_ndc": [
+          "43386-915",
+          "43386-917"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "POTASSIUM CHLORIDE"
+        ],
+        "rxcui": [
+          "1801294",
+          "1801298"
+        ],
+        "spl_id": [
+          "a056d531-3e7b-4598-a042-0d498456be72"
+        ],
+        "spl_set_id": [
+          "fe08221d-74d5-490a-8db4-eaf3ed20b289"
+        ],
+        "package_ndc": [
+          "43386-915-01",
+          "43386-915-10",
+          "43386-915-05",
+          "43386-915-09",
+          "43386-917-01",
+          "43386-917-05",
+          "43386-917-10",
+          "43386-917-04",
+          "43386-917-09"
+        ],
+        "unii": [
+          "660YQ98I10"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "POTASSIUM CHLORIDE",
+          "active_ingredients": [
+            {
+              "name": "POTASSIUM CHLORIDE",
+              "strength": "20MEQ"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB1"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "POTASSIUM CHLORIDE",
+          "active_ingredients": [
+            {
+              "name": "POTASSIUM CHLORIDE",
+              "strength": "10MEQ"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB1"
+        }
+      ]
+    },
+    {
+      "submissions": [
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "19",
+          "submission_status": "AP",
+          "submission_status_date": "20141201",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "17",
+          "submission_status": "AP",
+          "submission_status_date": "20130726",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "26",
+          "submission_status": "AP",
+          "submission_status_date": "20200925",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "2",
+          "submission_status": "AP",
+          "submission_status_date": "20080314",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "16",
+          "submission_status": "AP",
+          "submission_status_date": "20121130",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "SUPPL",
+          "submission_number": "20",
+          "submission_status": "AP",
+          "submission_status_date": "20170804",
+          "review_priority": "STANDARD",
+          "submission_class_code": "LABELING",
+          "submission_class_code_description": "Labeling"
+        },
+        {
+          "submission_type": "ORIG",
+          "submission_number": "1",
+          "submission_status": "AP",
+          "submission_status_date": "20071101"
+        }
+      ],
+      "application_number": "ANDA078296",
+      "sponsor_name": "LUPIN",
+      "openfda": {
+        "application_number": [
+          "ANDA078296"
+        ],
+        "brand_name": [
+          "LOVASTATIN"
+        ],
+        "generic_name": [
+          "LOVASTATIN"
+        ],
+        "manufacturer_name": [
+          "Lupin Pharmaceuticals, Inc.",
+          "BluePoint Laboratories"
+        ],
+        "product_ndc": [
+          "68180-467",
+          "68180-468",
+          "68180-469",
+          "68001-314",
+          "68001-315",
+          "68001-316"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "LOVASTATIN"
+        ],
+        "rxcui": [
+          "197903",
+          "197904",
+          "197905"
+        ],
+        "spl_id": [
+          "2a7b570f-e6b0-4311-abd0-c13a87a0b164",
+          "26682060-6c21-5cd7-e063-6394a90ab4dd"
+        ],
+        "spl_set_id": [
+          "df7ddf4f-d569-431e-81f1-9129d7043150",
+          "7b86160d-74a9-4774-b5b3-5641e686991f"
+        ],
+        "package_ndc": [
+          "68180-467-09",
+          "68180-467-07",
+          "68180-467-01",
+          "68180-467-03",
+          "68180-467-05",
+          "68180-468-07",
+          "68180-468-01",
+          "68180-468-03",
+          "68180-468-05",
+          "68180-468-09",
+          "68180-469-07",
+          "68180-469-01",
+          "68180-469-03",
+          "68180-469-05",
+          "68180-469-09",
+          "68001-314-00",
+          "68001-314-08",
+          "68001-315-00",
+          "68001-315-08",
+          "68001-316-00",
+          "68001-316-08"
+        ],
+        "nui": [
+          "N0000175589",
+          "N0000000121"
+        ],
+        "pharm_class_epc": [
+          "HMG-CoA Reductase Inhibitor [EPC]"
+        ],
+        "pharm_class_moa": [
+          "Hydroxymethylglutaryl-CoA Reductase Inhibitors [MoA]"
+        ],
+        "unii": [
+          "9LHU78OQFD"
+        ]
+      },
+      "products": [
+        {
+          "product_number": "003",
+          "reference_drug": "No",
+          "brand_name": "LOVASTATIN",
+          "active_ingredients": [
+            {
+              "name": "LOVASTATIN",
+              "strength": "40MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "LOVASTATIN",
+          "active_ingredients": [
+            {
+              "name": "LOVASTATIN",
+              "strength": "10MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "LOVASTATIN",
+          "active_ingredients": [
+            {
+              "name": "LOVASTATIN",
+              "strength": "20MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ]
+    }
+  ]
+}

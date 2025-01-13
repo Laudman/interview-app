@@ -1,0 +1,26 @@
+rest:
+  client:
+    fda:
+      url: ${FDA_REST_CLIENT_URL:https://api.fda.gov}
+      api_key: ${FDA_API_KEY:8jUGQF95wGG6fgtPDPLbG2pvSiJAuIwKnhnrVyTh}
+server:
+  servlet:
+    context-path: /
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+  mvc:
+    problemdetails:
+      enabled: true
+  liquibase:
+    change-log: classpath:/db/db.changelog-master.xml
+logbook:
+  filter:
+    enabled: true
+  format:
+    style: http
+logging:
+  level:
+    org.zalando.logbook: DEBUG
+    org.springframework.web.client.RestTemplate: DEBUG

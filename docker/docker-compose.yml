@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rat-db:
+    image: 'postgres:16-alpine'
+    container_name: interview-app-database
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_RANDOM_ROOT_PASSWORD: 'yes'
+      POSTGRES_DATABASE: 'int-app-db-test'
+      POSTGRES_USER: 'int-app-db-test'
+      POSTGRES_PASSWORD: 'int-app-db-test'

@@ -1,0 +1,64 @@
+import org.openapitools.generator.gradle.plugin.tasks.GenerateTask
+
+dependencies {
+    implementation(
+            'org.projectlombok:lombok',
+            'org.postgresql:postgresql',
+            'org.liquibase:liquibase-core',
+            'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.1',
+            'org.openapitools:jackson-databind-nullable:0.2.6',
+            'org.apache.httpcomponents.client5:httpclient5:5.4.1',
+            'org.zalando:logbook-spring-boot-starter:3.10.0',
+
+    )
+    testImplementation(
+            'org.testcontainers:postgresql:1.20.4',
+            'org.testcontainers:junit-jupiter:1.20.4',
+            'org.springframework.boot:spring-boot-testcontainers:3.4.1'
+    )
+}
+
+openApiGenerate {
+    generatorName = "spring"
+    inputSpec.set("${layout.projectDirectory}/src/main/resources/api/interview-models.yaml")
+    outputDir.set(layout.buildDirectory.dir("openapi/drugs").map { it.toString() })
+    apiPackage = "com.interview.fda.drugs.api"
+    modelPackage = "com.interview.fda.drugs.api.model"
+    configOptions.set([
+            interfaceOnly       : "true",
+            supportFiles        : "false",
+            skipDefaultInterface: "true",
+            useSpringBoot3      : "true",
+    ])
+}
+
+tasks.register("openApiGenerateFdaSearchApi", GenerateTask) {
+    generatorName = "java"
+    inputSpec.set("${layout.projectDirectory}/src/main/resources/api/open-fda.yaml")
+    outputDir.set(layout.buildDirectory.dir("openapi/openfda").map { it.toString() })
+    apiPackage = "com.interview.fda.openfda.api"
+    modelPackage = "com.interview.fda.openfda.api.model"
+    configOptions.set([
+            useSpringBoot3         : "true",
+            library                : "resttemplate",
+            generateSupportingFiles: "true",
+            useJakartaEe           : "true"
+    ])
+}
+
+
+test {
+    useJUnitPlatform()
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir("${layout.buildDirectory.get()}/openapi/drugs/src/main/java")
+            srcDir("${layout.buildDirectory.get()}/openapi/openfda/src/main/java")
+        }
+    }
+}
+
+compileJava.dependsOn tasks.openApiGenerate
+compileJava.dependsOn tasks.openApiGenerateFdaSearchApi
